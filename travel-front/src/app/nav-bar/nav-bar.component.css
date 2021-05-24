@@ -7,3 +7,17 @@
   height: 60px;
   line-height: 60px;
 }
+
+.btn-class {
+  padding: 5px;
+  margin-left: 10px;
+  background-color: indigo;
+  color: ivory;
+  border: none;
+  font-weight: 170;
+}
+
+.btn-class:hover {
+  padding: 5px;
+  background-color: orchid;
+}
