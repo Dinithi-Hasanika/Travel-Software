@@ -1,0 +1,12 @@
+.btn-class {
+  margin-top: 60px;
+  margin-left: 40px;
+  padding-top: 30px;
+  min-width: 500px;
+  min-height: 300px;
+  background-color: lightseagreen;
+  color: ivory;
+  font-weight: 400;
+  font-size: larger;
+  border-radius: 12px;
+}
