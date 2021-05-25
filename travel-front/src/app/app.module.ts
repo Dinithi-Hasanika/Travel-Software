@@ -10,7 +10,9 @@ import { ContractAdderComponent } from './contract-adder/contract-adder.componen
 import { ContractDeleteComponent } from './contract-delete/contract-delete.component';
 import { ContractViewComponent } from './contract-view/contract-view.component';
 import { ContractUpdateComponent } from './contract-update/contract-update.component';
-import { ResultTableComponent } from './result-table/result-table.component';
+import { RoomNeedTableComponent } from './room-need-table/room-need-table.component';
+import { RoomRateTableComponent } from './room-rate-table/room-rate-table.component';
+import { ResultCardsComponent } from './result-cards/result-cards.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ResultTableComponent } from './result-table/result-table.component';
     ContractDeleteComponent,
     ContractViewComponent,
     ContractUpdateComponent,
-    ResultTableComponent
+    RoomNeedTableComponent,
+    RoomRateTableComponent,
+    ResultCardsComponent
   ],
   imports: [
     BrowserModule,

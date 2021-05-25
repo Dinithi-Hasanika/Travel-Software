@@ -1,1 +1,30 @@
-<p>call-center works!</p>
+<p class="heading">SEARCH</p>
+
+    <div class="row">
+<div class="column">
+<form>
+    <div class="row">
+        <div class="column"><input type="date"  placeholder="Check-In Date : "></div>
+        <div class="column"><input type="date"  placeholder="Check-Out Date : "></div>   
+    </div>
+    <div class="row">
+        <input type="number" id="nights" class="form-control form-c-1" placeholder="Nights"/> 
+    </div>
+    <div class="row">
+        <p class="heading">Add Room Need</p>
+    </div>
+    <div class="row">
+        <div class="column"><input type="number"  class="form-control form-c-1" placeholder="Adults : "></div>
+        <div class="column"><input type="number"  class="form-control form-c-1" placeholder="Rooms : "></div>   
+    </div>
+    
+    <button class="btn-class">ADD</button>
+    <app-room-need-table></app-room-need-table>
+    <button class="btn-class">SEARCH</button>
+</form>
+</div>
+<div class="column">
+<app-result-cards></app-result-cards>
+</div>
+    </div>
+
