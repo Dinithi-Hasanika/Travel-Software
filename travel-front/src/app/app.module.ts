@@ -10,6 +10,7 @@ import { ContractAdderComponent } from './contract-adder/contract-adder.componen
 import { ContractDeleteComponent } from './contract-delete/contract-delete.component';
 import { ContractViewComponent } from './contract-view/contract-view.component';
 import { ContractUpdateComponent } from './contract-update/contract-update.component';
+import { ResultTableComponent } from './result-table/result-table.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContractUpdateComponent } from './contract-update/contract-update.compo
     ContractAdderComponent,
     ContractDeleteComponent,
     ContractViewComponent,
-    ContractUpdateComponent
+    ContractUpdateComponent,
+    ResultTableComponent
   ],
   imports: [
     BrowserModule,

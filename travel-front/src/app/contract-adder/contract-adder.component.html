@@ -4,10 +4,46 @@
     
     <div class="row">
         <div class="column">
-            <input type="text" class="form-control" placeholder="Hotel">
+            <input type="text" class="form-control form-c-2" placeholder="Hotel">
         </div>
         <div class="column">
-            <input type="text" class="form-control" placeholder="Location">
+            <input type="text" class="form-control form-c-2" placeholder="Location">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+            <div class="row">
+            <input type="number" class="form-control form-c-1" placeholder="MarkUp">
+        </div>
+        <div class="row">
+            <div class="column"><input type="date"  placeholder="Contract Start Date : "></div>
+            <div class="column"><input type="date"  placeholder="Contract End Date : "></div>
+            
+        </div>
+        <div class="row">
+            <p class="heading">Add Room Details</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <input type="text" class="form-control form-c-2" placeholder="Room Name">
+            </div>
+            <div class="column">
+                <input type="number" class="form-control form-c-2" placeholder="Price">
+            </div>   
+        </div>
+        <div class="row">
+            <div class="column">
+                <input type="number" class="form-control form-c-2" placeholder="Number of Rooms">
+            </div>
+            <div class="column">
+                <input type="number" class="form-control form-c-2" placeholder="Maximum Number of Adults">
+            </div>   
+        </div>
+        <button class="btn-class">ADD</button>
+        </div>
+        <div class="column">
+         <app-result-table></app-result-table> 
+         <button class="btn-class">SUBMIT</button>
         </div>
       </div>
   </form>
